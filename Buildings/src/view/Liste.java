@@ -10,6 +10,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -27,7 +28,7 @@ public class Liste extends VBox{
 
 	private ObservableList<Building> buildings;
 	private ObjectProperty<Building> selectedBuilding = new SimpleObjectProperty<>();
-	private FilteredList<Building> filteredData;
+	
 	
 	//public Liste(ObservableList<Building> buildings){
 		
@@ -49,7 +50,7 @@ public class Liste extends VBox{
 	public void initializeControls() {
     //Initialize Tableview
 	tabelle = new TableView<Building>();
-	filteredData = new FilteredList<Building>(buildings, s-> true);
+	FilteredList<Building> filteredData = new FilteredList<Building>(buildings, s-> true);
 	
 	tabelle.setItems(filteredData);
 	
@@ -59,8 +60,10 @@ public class Liste extends VBox{
 		if(filter == null || filter.length()==0){
 			filteredData.setPredicate(s -> true);
 		}else {
-			filteredData.setPredicate(s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length() - filter.length());
+			filteredData.setPredicate(s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length());
+			
 		}
+		
 	});
 	
 	TableColumn<Building, Integer> rankCol = new TableColumn<Building, Integer>("Rank");
