@@ -21,6 +21,10 @@ public class DetailView extends GridPane{
 		addBindings();
 		
 		labelrank.setText(Integer.toString(building.get().getRank()));
+		labelnameh.setText(building.get().getName());
+		labelcityh.setText(building.get().getCity());
+		labelcountryh.setText(building.get().getCountry());
+		labelheightmh.setText(Float.toString(building.get().getHeightM()));
 		
 		System.out.println(building.get().getName());
 	}
@@ -95,9 +99,6 @@ public class DetailView extends GridPane{
 	private TextField textFieldlong;
 	private TextField textFieldlal;
 	
-
-
-
 	
 	private Label labelid;
 	private Label labelrank;
@@ -114,6 +115,11 @@ public class DetailView extends GridPane{
 	private Label labelmaterial;
 	private Label labellong;
 	private Label labellal;
+	private Label labelnameh;
+	private Label labelcityh;
+	private Label labelcountryh;
+	private Label labelheightmh;
+	
 	
 
 
@@ -135,6 +141,10 @@ public class DetailView extends GridPane{
 		textFieldmaterial = new TextField(building.get().getMaterial());
 		textFieldlong = new TextField(Float.toString(building.get().getLongtitude()));
 		textFieldlal = new TextField(Float.toString(building.get().getLatitude()));
+	    labelnameh = new Label(building.get().getName());
+	    labelcityh = new Label(building.get().getName());
+	    labelcountryh = new Label(building.get().getName());
+	    labelheightmh = new Label(building.get().getName());
 		
 
 		labelid = new Label("ID");
@@ -168,34 +178,38 @@ public class DetailView extends GridPane{
 		getRowConstraints().addAll(rc, rc, rc, rc, rc, rc, rc, rc, rc, rc, rc);
 		
 		add(labelrank, 0, 0);
+		add(labelnameh, 0, 1);
+		add(labelcityh, 0, 2);
+		add(labelcountryh, 1, 2);
+		add(labelheightmh, 0, 3);
 		
-		add(labelname, 0, 1);
-		add(labelcity, 0, 2);
-		add(labelcountry, 2, 2);
-		add(labelheightm, 0, 3);
-		add(labelheightf, 2, 3);
-		add(labelfloors, 0, 4);
-		add(labelyear, 2, 4);
-		add(labelarchitect, 0, 5);
-		add(labelstyle, 2, 5);
-		add(labelcost, 0, 6);
-		add(labelmaterial, 2, 6);
-		add(labellong, 0, 7);
-		add(labellal, 2, 7);
+		add(labelname, 0, 4);
+		add(labelcity, 0, 5);
+		add(labelcountry, 2, 5);
+		add(labelheightm, 0, 6);
+		add(labelheightf, 2, 6);
+		add(labelfloors, 0, 7);
+		add(labelyear, 2, 7);
+		add(labelarchitect, 0, 8);
+		add(labelstyle, 2, 8);
+		add(labelcost, 0, 9);
+		add(labelmaterial, 2, 9);
+		add(labellong, 0, 10);
+		add(labellal, 2, 10);
 	
-		add(textFieldname, 1, 0);
-		add(textFieldcity, 1, 1);
-		add(textFieldcountry, 3, 1);
-		add(textFieldheightm, 1, 2);
-		add(textFieldheightf, 3, 2);
-		add(textFieldfloors, 1, 3);
-		add(textFieldyear, 3, 3);
-		add(textFieldarchitect, 1, 4);
-		add(textFieldstyle, 3, 4);
-		add(textFieldcost, 1, 5);
-		add(textFieldmaterial, 3, 5);
-		add(textFieldlong, 1, 6);
-		add(textFieldlal, 3, 6);
+		add(textFieldname, 1, 4);
+		add(textFieldcity, 1, 5);
+		add(textFieldcountry, 3, 5);
+		add(textFieldheightm, 1, 6);
+		add(textFieldheightf, 3, 6);
+		add(textFieldfloors, 1, 7);
+		add(textFieldyear, 3, 7);
+		add(textFieldarchitect, 1, 8);
+		add(textFieldstyle, 3, 8);
+		add(textFieldcost, 1, 9);
+		add(textFieldmaterial, 3, 9);
+		add(textFieldlong, 1, 10);
+		add(textFieldlal, 3, 10);
 	}
 
 	

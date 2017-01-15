@@ -36,8 +36,8 @@ public class Main extends Application {
 		
 		window.setTitle("Building");
 		window.setScene(scene);
-		window.setWidth(800);
-		window.setHeight(600);
+		window.setWidth(1000);
+		window.setHeight(800);
 		
 		// hauptfenster darstellung wird hier definiert Titel, center, get icons, height etc...
 		

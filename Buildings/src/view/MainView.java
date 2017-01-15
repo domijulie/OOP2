@@ -52,9 +52,9 @@ public class MainView extends BorderPane{
 	
 	public SplitPane addSplitPane(){
 		SplitPane splitPane = new SplitPane();
-		splitPane.setPrefSize(400, 400);
+		splitPane.setPrefSize(400, 800);
 		splitPane.getItems().setAll(liste, content);
-		splitPane.setDividerPosition(0, 0.25);
+		splitPane.setDividerPosition(5, 0.25);
 		
 		return splitPane;
 	}
