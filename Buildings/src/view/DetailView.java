@@ -31,12 +31,6 @@ public class DetailView extends GridPane{
 
 	private void addBindings() {
 		building.addListener((observable, oldValue, newValue) -> {
-//			textFieldid.textProperty().unbindBidirectional(oldValue.getIdProperty());
-//			textFieldid.clear();
-//			textFieldid.textProperty().bindBidirectional(newValue.getIdProperty(), new NumberStringConverter());
-//			textFieldrank.textProperty().unbindBidirectional(oldValue.getRankProperty());
-//			textFieldrank.clear();
-//			textFieldrank.textProperty().bindBidirectional(newValue.getRankProperty(), new NumberStringConverter());
 			textFieldname.textProperty().unbindBidirectional(oldValue.getNameProperty());
 			textFieldname.clear();
 			textFieldname.textProperty().bindBidirectional(newValue.getNameProperty());
@@ -77,14 +71,27 @@ public class DetailView extends GridPane{
 			textFieldlal.clear();
 			textFieldlal.textProperty().bindBidirectional(newValue.getLaltitudeProperty(), new NumberStringConverter());
 			
+			//Header Bindings
+			labelrank.textProperty().unbindBidirectional(oldValue.getRankProperty());
+			labelrank.textProperty().bindBidirectional(newValue.getRankProperty(), new NumberStringConverter());
 			
+			labelnameh.textProperty().unbindBidirectional(oldValue.getNameProperty());
+			labelnameh.textProperty().bindBidirectional(newValue.getNameProperty());
 			
+			labelcityh.textProperty().unbindBidirectional(oldValue.getCityProperty());
+			labelcityh.textProperty().bindBidirectional(newValue.getCityProperty());
+			
+			labelcountryh.textProperty().unbindBidirectional(oldValue.getCountryProperty());
+			labelcountryh.textProperty().bindBidirectional(newValue.getCountryProperty());
+			
+			labelheightmh.textProperty().unbindBidirectional(oldValue.getHeightmProperty());
+			labelheightmh.textProperty().bindBidirectional(newValue.getHeightmProperty(), new NumberStringConverter());
 		} );
+		
 		textFieldid.textProperty().bindBidirectional(building.get().getIdProperty(),new NumberStringConverter());
 	}
 
 	private TextField textFieldid;
-	private TextField textFieldrank;
 	private TextField textFieldname;
 	private TextField textFieldcity;
 	private TextField textFieldcountry;
@@ -100,7 +107,6 @@ public class DetailView extends GridPane{
 	private TextField textFieldlal;
 	
 	
-	private Label labelid;
 	private Label labelrank;
 	private Label labelname;
 	private Label labelcity;
@@ -127,7 +133,6 @@ public class DetailView extends GridPane{
 
 	private void initializeControls(){
 		textFieldid = new TextField(Integer.toString(building.get().getId()));
-		textFieldrank = new TextField(Integer.toString(building.get().getRank()));
 		textFieldname = new TextField(building.get().getName());
 		textFieldcity = new TextField(building.get().getCity());
 		textFieldcountry = new TextField(building.get().getCountry());
@@ -147,7 +152,6 @@ public class DetailView extends GridPane{
 	    labelheightmh = new Label(building.get().getName());
 		
 
-		labelid = new Label("ID");
 		labelrank = new Label("Rank");
 		labelname = new Label("Name");
 		labelcity = new Label("City");

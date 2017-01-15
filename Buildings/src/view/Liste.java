@@ -59,7 +59,7 @@ public class Liste extends VBox{
 		if(filter == null || filter.length() == 0){
 			filteredData.setPredicate(s -> true);
 		}else {
-			filteredData.setPredicate(s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length());
+			filteredData.setPredicate(s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length() - filter.length());
 			
 		}
 		
