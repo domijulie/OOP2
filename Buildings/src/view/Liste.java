@@ -10,7 +10,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -57,7 +56,7 @@ public class Liste extends VBox{
 	TextField searchField = new TextField();
 	searchField.textProperty().addListener(e -> {
 		String filter = searchField.getText();
-		if(filter == null || filter.length()==0){
+		if(filter == null || filter.length() == 0){
 			filteredData.setPredicate(s -> true);
 		}else {
 			filteredData.setPredicate(s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length());
