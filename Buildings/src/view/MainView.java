@@ -5,19 +5,15 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 import javafx.scene.control.SplitPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.shape.Line;
 import model.Building;
-import model.IO;
 
 public class MainView extends BorderPane{
 	
-	private IO model;
 	
 	private NavigationView navigationView;  //header 
 	private DetailView content;   
 	private Liste liste;
-	private ObservableList buildings;
+	private ObservableList<Building> buildings;
 	private ObjectProperty<Building> selectedBuilding = new SimpleObjectProperty<>();
 	
 
@@ -26,12 +22,11 @@ public class MainView extends BorderPane{
 	//setVgrow(content, Priority.ALWAYS);
 	//getChildren().addAll(navigationView, content);
 	
-	public MainView(ObservableList buildings){
+	public MainView(ObservableList<Building> buildings){
 		this.buildings = buildings;
 		initializeControls();
 		layoutControls();
 		addBindings();
-		
 	}
 	
 	public void layoutControls(){
