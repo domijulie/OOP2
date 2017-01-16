@@ -16,12 +16,6 @@ public class MainView extends BorderPane{
 	private ObservableList<Building> buildings;
 	private ObjectProperty<Building> selectedBuilding = new SimpleObjectProperty<>();
 	
-
-
-	//public MainView(ObservableList<Building> buildings) {
-	//setVgrow(content, Priority.ALWAYS);
-	//getChildren().addAll(navigationView, content);
-	
 	public MainView(ObservableList<Building> buildings){
 		this.buildings = buildings;
 		initializeControls();
@@ -35,14 +29,16 @@ public class MainView extends BorderPane{
 	}
 	
 	public void initializeControls(){
+		liste = new Liste(buildings);
 		selectedBuilding.setValue((Building) buildings.get(0));
 		navigationView = new NavigationView(buildings, this);
-		content = new DetailView(selectedBuilding);
-		liste = new Liste(buildings);
+		content = new DetailView(selectedBuilding, liste);
 	}
 	
 	private void addBindings(){
 		selectedBuilding.bind(liste.getTable().selectionModelProperty().get().selectedItemProperty());
+		
+		
 	}
 	
 	public SplitPane addSplitPane(){
@@ -61,6 +57,10 @@ public class MainView extends BorderPane{
 	
 	public void setSelectedToLast(){
 		liste.getTable().getSelectionModel().selectLast();
+	}
+
+	public void updateList() {
+		liste.update();
 	}
 
 }

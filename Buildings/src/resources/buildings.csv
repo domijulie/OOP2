@@ -1,139 +1,138 @@
 ID;RANK;BUILDING;CITY;COUNTRY;HEIGHT_M;HEIGHT_FT;FLOORS;BUILD;ARCHITECT;ARCHITECTUTAL_STYLE;COST;MATERIAL;LONGITUDE;LATITUDE;IMAGE_URL
-1;1;Burj Khalifa;Dubai;UAE;830.0;2723.064;163;2010;Adrian Smith at SOM;Neo-futurism;1.5;glass, steel, aluminum, reinforced concrete;25.1971;55.2741
-2;2;Shanghai Tower;Shanghai;China;632.0;2073.4656;128;2015;Jun Xia (Gensler);;2.4;;31.2355;121.501
-3;3;Abraj Al-Bait Clock Tower;Mecca;Saudi Arabia;601.0;1971.7607;120;2012;Dar Al-Handasah Architects;;15.0;steel/concrete composite construction;21.4189;39.8264
-4;4;Ping An Finance Centre;Shenzhen;China;599.0;1965.1992;115;2016;;;0.0;;0.0;0.0
-5;5;Lotte World Tower;Seoul;South Korea;555.0;1820.844;123;2016;;;0.0;;0.0;0.0
-6;6;CN Tower;Toronto;Canada;553.33;1815.3651;0;1973;;;0.0;;0.0;0.0
-7;7;One World Trade Center;New York City;United States;541.3;1775.897;104;2014;;;0.0;;0.0;0.0
-8;8;CTF Finance Centre;Guangzhou;China;530.0;1738.824;111;2016;;;0.0;;0.0;0.0
-9;9;Taipei 101;Taipei;Taiwan;509.0;1669.9272;101;2004;;;0.0;;0.0;0.0
-10;10;Shanghai World Financial Center;Shanghai;China;492.0;1614.1536;101;2008;;;0.0;;0.0;0.0
-11;11;International Commerce Centre;Hong Kong;Hong Kong;484.0;1587.9072;118;2010;;;0.0;;0.0;0.0
-12;12;Petronas Tower 1;Kuala Lumpur;Malaysia;452.0;1482.9216;88;1998;;;0.0;;0.0;0.0
-13;13;Petronas Tower 2;Kuala Lumpur;Malaysia;452.0;1482.9216;88;1998;;;0.0;;0.0;0.0
-14;14;Zifeng Tower;Nanjing;China;450.0;1476.36;89;2010;;;0.0;;0.0;0.0
-15;15;Willis Tower (formerly the Sears Tower);Chicago;United States;442.0;1450.1136;107;1974;;;0.0;;0.0;0.0
-16;15;KK100;Shenzhen;China;442.0;1450.1136;100;2011;;;0.0;;0.0;0.0
-17;17;Guangzhou International Finance Center;Guangzhou;China;440.0;1443.552;103;2010;;;0.0;;0.0;0.0
-18;18;Wuhan Center;Wuhan;China;438.0;1436.9904;88;2016;;;0.0;;0.0;0.0
-19;19;Marina 101;Dubai;UAE;426.5;1399.2612;101;2015;;;0.0;;0.0;0.0
-20;20;432 Park Avenue;New York City;United States;426.0;1397.6208;88;2015;;;0.0;;0.0;0.0
-21;21;Trump International Hotel and Tower;Chicago;United States;423.0;1387.7784;98;2009;;;0.0;;0.0;0.0
-22;22;Jin Mao Tower;Shanghai;China;420.5;1379.5764;88;1999;;;0.0;;0.0;0.0
-23;23;Princess Tower;Dubai;UAE;414.0;1358.2512;101;2012;;;0.0;;0.0;0.0
-24;24;Al Hamra Tower;Kuwait City;Kuwait;413.0;1354.9705;80;2011;;;0.0;;0.0;0.0
-25;25;Two International Finance Centre;Hong Kong;Hong Kong;412.0;1351.6896;88;2003;;;0.0;;0.0;0.0
-26;26;23 Marina;Dubai;UAE;395.0;1295.916;89;2012;;;0.0;;0.0;0.0
-27;27;CITIC Plaza;Guangzhou;China;391.0;1282.7928;80;1997;;;0.0;;0.0;0.0
-28;28;Shun Hing Square;Shenzhen;China;384.0;1259.8271;69;1996;;;0.0;;0.0;0.0
-29;29;Eton Place Dalian Tower 1;Dalian;China;383.0;1256.5464;81;2015;;;0.0;;0.0;0.0
-30;30;Burj Mohammed bin Rashid;Abu Dhabi;UAE;381.2;1250.641;88;2014;;;0.0;;0.0;0.0
-31;31;Empire State Building;New York City;United States;381.0;1249.9847;102;1931;Shreve, Lamb and Harmon;Art Deco;40948.0;;40.7484;-73.9857
-32;32;Elite Residence;Dubai;UAE;380.5;1248.3444;87;2012;;;0.0;;0.0;0.0
-33;33;Central Plaza;Hong Kong;Hong Kong;374.0;1227.0192;78;1992;;;0.0;;0.0;0.0
-34;34;Federation Tower (East Tower);Moscow;Russia;374.0;1227.0192;95;2015;;;0.0;;0.0;0.0
-35;35;Dalian International Trade Center;Dalian;China;370.1;1214.2241;86;2016;;;0.0;;0.0;0.0
-36;36;The Address the BLVD;Dubai;UAE;368.0;1207.3344;72;2016;;;0.0;;0.0;0.0
-37;37;Bank of China Tower;Hong Kong;Hong Kong;367.4;1205.3658;70;1990;;;0.0;;0.0;0.0
-38;38;Bank of America Tower;New York City;United States;366.0;1200.7728;54;2009;;;0.0;;0.0;0.0
-39;39;Almas Tower;Dubai;UAE;363.0;1190.9304;68;2009;;;0.0;;0.0;0.0
-40;40;JW Marriott Marquis Dubai Tower 1;Dubai;UAE;355.0;1164.684;82;2012;;;0.0;;0.0;0.0
-41;40;JW Marriott Marquis Dubai Tower 2;Dubai;UAE;355.0;1164.684;82;2012;;;0.0;;0.0;0.0
-42;41;Emirates Office Tower;Dubai;UAE;354.6;1163.3717;54;2000;;;0.0;;0.0;0.0
-43;42;OKO Tower - South Tower;Moscow;Russia;354.0;1161.4032;85;2015;;;0.0;;0.0;0.0
-44;43;The Marina Torch;Dubai;UAE;352.0;1154.8416;86;2011;;;0.0;;0.0;0.0
-45;44;Forum 66 Tower 2;Shenyang;China;351.0;1151.5608;68;2015;;;0.0;;0.0;0.0
-46;45;The Pinnacle;Guangzhou;China;350.2;1148.9362;60;2012;;;0.0;;0.0;0.0
-47;45;Stratosphere Las Vegas;Las Vegas;United States;350.2;1148.9362;0;1996;;;0.0;;0.0;0.0
-48;46;Tuntex Sky Tower;Kaohsiung;Taiwan;347.0;1138.4376;85;1997;;;0.0;;0.0;0.0
-49;47;Aon Center;Chicago;United States;346.3;1136.141;83;1973;;;0.0;;0.0;0.0
-50;48;The Center;Hong Kong;Hong Kong;346.0;1135.1569;73;1998;;;0.0;;0.0;0.0
-51;49;John Hancock Center;Chicago;United States;344.0;1128.5952;100;1969;;;0.0;;0.0;0.0
-52;50;ADNOC Headquarters;Abu Dhabi;UAE;342.0;1122.0336;76;2015;;;0.0;;0.0;0.0
-53;50;Ahmed Abdul Rahim Al Attar Tower;Dubai;UAE;342.0;1122.0336;76;2015;;;0.0;;0.0;0.0
-54;52;The Wharf Times Square;Wuxi;China;339.0;1112.1912;68;2014;;;0.0;;0.0;0.0
-55;53;Chongqing World Financial Center;Chongqing;China;338.9;1111.8632;78;2014;;;0.0;;0.0;0.0
-56;54;Mercury City Tower;Moscow;Russia;338.8;1111.535;75;2013;;;0.0;;0.0;0.0
-57;55;Tianjin Modern City Office Tower;Tianjin;China;338.0;1108.9104;65;2015;;;0.0;;0.0;0.0
-58;56;Tianjin World Financial Center;Tianjin;China;337.0;1105.6296;79;2010;;;0.0;;0.0;0.0
-59;57;Twin Towers Guiyang, East Tower;Guiyang;China;335.0;1099.068;74;2017;;;0.0;;0.0;0.0
-60;57;Twin Towers Guiyang, West Tower;Guiyang;China;335.0;1099.068;74;2017;;;0.0;;0.0;0.0
-61;59;Shimao International Plaza;Shanghai;China;333.0;1092.5063;61;2005;;;0.0;;0.0;0.0
-62;60;Rose Tower;Dubai;UAE;333.0;1092.5063;72;2007;;;0.0;;0.0;0.0
-63;61;Minsheng Bank Building;Wuhan;China;331.0;1085.9448;68;2008;;;0.0;;0.0;0.0
-64;62;China World Trade Center Tower 3;Beijing;China;330.0;1082.664;74;2009;;;0.0;;0.0;0.0
-65;62;Ryugyong Hotel;Pyongyang;North Korea;330.0;1082.664;105;1992;;;0.0;;0.0;0.0
-66;62;Zhuhai St. Regis Hotel & Office Tower;Zhuhai;China;330.0;1082.664;67;2017;;;0.0;;0.0;0.0
-67;62;Yuexiu Fortune Center Tower 1;Wuhan;China;330.0;1082.664;66;2017;;;0.0;;0.0;0.0
-68;66;Hon Kwok City Center;Shenzhen;China;329.4;1080.6956;80;2015;;;0.0;;0.0;0.0
-69;67;Keangnam Hanoi Landmark Tower;Hanoi;Vietnam;328.6;1078.0709;72;2012;;;0.0;;0.0;0.0
-70;68;Al Yaqoub Tower;Dubai;UAE;328.0;1076.1024;69;2013;;;0.0;;0.0;0.0
-71;68;Longxi International Hotel;Huaxi Village;China;328.0;1076.1024;72;2011;;;0.0;;0.0;0.0
-72;68;Wuxi Suning Plaza 1;Wuxi;China;328.0;1076.1024;68;2014;;;0.0;;0.0;0.0
-73;71;The Index;Dubai;UAE;326.0;1069.5408;80;2010;;;0.0;;0.0;0.0
-74;72;Guangxi Finance Plaza;Nanning;China;325.0;1066.26;68;2016;;;0.0;;0.0;0.0
-75;73;The Landmark;Abu Dhabi;UAE;324.0;1062.9792;72;2012;;;0.0;;0.0;0.0
-76;73;Deji Plaza Phase 2;Nanjing;China;324.0;1062.9792;62;2013;;;0.0;;0.0;0.0
-77;75;Yantai Shimao No.1 The Harbour;Yantai;China;323.0;1059.6984;59;2015;;;0.0;;0.0;0.0
-78;76;Q1;Gold Coast;Australia;322.5;1058.058;80;2005;;;0.0;;0.0;0.0
-79;77;Wenzhou World Trade Center;Wenzhou;China;322.0;1056.4176;68;2010;;;0.0;;0.0;0.0
-80;78;Burj Al Arab;Dubai;UAE;321.0;1053.1368;60;1999;;;0.0;;0.0;0.0
-81;79;Nina Tower;Hong Kong;Hong Kong;320.4;1051.1683;80;2007;;;0.0;;0.0;0.0
-82;80;Sinar Mas Center 1;Shanghai;China;319.6;1048.5437;66;2016;;;0.0;;0.0;0.0
-83;81;Chrysler Building;New York City;United States;318.9;1046.2471;77;1930;;;0.0;;0.0;0.0
-84;81;Global City Square;Guangzhou;China;318.9;1046.2471;67;2015;;;0.0;;0.0;0.0
-85;83;New York Times Building;New York City;United States;318.8;1045.919;52;2007;;;0.0;;0.0;0.0
-86;84;HHHR Tower;Dubai;UAE;317.0;1040.0135;72;2010;;;0.0;;0.0;0.0
-87;85;Chongqing IFS T1;Chongqing;China;316.0;1036.7328;65;2016;;;0.0;;0.0;0.0
-88;86;Nanjing International Youth Cultural Centre Tower 1;Nanjing;China;315.0;1033.452;68;2015;;;0.0;;0.0;0.0
-89;86;Changsha IFS Tower T2;Changsha;China;315.0;1033.452;65;2017;;;0.0;;0.0;0.0
-90;88;MahaNakhon;Bangkok;Thailand;314.2;1030.8274;75;2016;;;0.0;;0.0;0.0
-91;89;Bank of America Plaza;Atlanta;United States;312.0;1023.6096;55;1992;;;0.0;;0.0;0.0
-92;90;Moi Center;Shenyang;China;311.0;1020.3288;75;2012;;;0.0;;0.0;0.0
-93;91;U.S. Bank Tower;Los Angeles;United States;310.3;1018.0322;73;1989;;;0.0;;0.0;0.0
-94;92;Menara Telekom;Kuala Lumpur;Malaysia;310.0;1017.048;55;2001;;;0.0;;0.0;0.0
-95;92;Ocean Heights;Dubai;UAE;310.0;1017.048;82;2010;;;0.0;;0.0;0.0
-96;94;Pearl River Tower;Guangzhou;China;309.6;1015.7357;71;2013;;;0.0;;0.0;0.0
-97;95;Fortune Center;Guangzhou;China;309.4;1015.0795;68;2015;;;0.0;;0.0;0.0
-98;96;Jumeirah Emirates Towers Hotel;Dubai;UAE;309.0;1013.7672;56;2000;;;0.0;;0.0;0.0
-99;97;Stalnaya Vershina;Moscow;Russia;308.9;1013.4391;72;2015;;;0.0;;0.0;0.0
-100;98;Burj Rafal;Riyadh;Saudi Arabia;308.0;1010.4864;68;2013;;;0.0;;0.0;0.0
-101;99;Wanda Plaza 1;Kunming;China;307.0;1007.2056;70;2016;;;0.0;;0.0;0.0
-102;99;Wanda Plaza 2;Kunming;China;307.0;1007.2056;70;2016;;;0.0;;0.0;0.0
-103;101;Franklin Center;Chicago;United States;306.9;1006.8775;60;1989;;;0.0;;0.0;0.0
-104;102;Cayan Tower;Dubai;UAE;306.4;1005.2371;76;2013;;;0.0;;0.0;0.0
-105;103;One57;New York City;United States;306.1;1004.2529;75;2013;;;0.0;;0.0;0.0
-106;104;East Pacific Center Tower A;Shenzhen;China;306.0;1003.9248;85;2012;;;0.0;;0.0;0.0
-107;104;The Shard;London;United Kingdom;306.0;1003.9248;73;2012;;;0.0;;0.0;0.0
-108;106;JPMorgan Chase Tower;Houston;United States;305.4;1001.9563;75;1982;;;0.0;;0.0;0.0
-109;107;Etihad Tower 2;Abu Dhabi;UAE;305.3;1001.6282;79;2011;;;0.0;;0.0;0.0
-110;108;Northeast Asia Trade Tower;Incheon;South Korea;305.0;1000.644;68;2010;;;0.0;;0.0;0.0
-111;109;Baiyoke Tower II;Bangkok;Thailand;304.0;997.3632;85;1997;;;0.0;;0.0;0.0
-112;110;Wuxi Maoye City - Marriott Hotel;Wuxi;China;303.8;996.707;68;2014;;;0.0;;0.0;0.0
-113;110;Shenzhen CFC Changfu Centre;Shenzhen;China;303.8;996.707;68;2016;;;0.0;;0.0;0.0
-114;112;Two Prudential Plaza;Chicago;United States;303.3;995.0666;64;1990;;;0.0;;0.0;0.0
-115;113;Diwang International Fortune Center;Liuzhou;China;303.0;994.0824;75;2015;;;0.0;;0.0;0.0
-116;113;KAFD World Trade Center;Riyadh;Saudi Arabia;303.0;994.0824;67;2015;;;0.0;;0.0;0.0
-117;113;Jiangxi Nanchang Greenland Central Plaza 1;Nanchang;China;303.0;994.0824;59;2015;;;0.0;;0.0;0.0
-118;113;Jiangxi Nanchang Greenland Central Plaza 2;Nanchang;China;303.0;994.0824;59;2015;;;0.0;;0.0;0.0
-119;113;Greenland Puli Center;Jinan;China;303.0;994.0824;60;2015;;;0.0;;0.0;0.0
-120;118;Leatop Plaza;Guangzhou;China;303.0;994.0824;65;2011;;;0.0;;0.0;0.0
-121;119;Wells Fargo Plaza;Houston;United States;302.4;992.1139;71;1983;;;0.0;;0.0;0.0
-122;120;Kingdom Centre;Riyadh;Saudi Arabia;302.3;991.7858;41;2002;;;0.0;;0.0;0.0
-123;121;The Address Downtown Burj Khalifa;Dubai;UAE;302.2;991.4578;63;2008;;;0.0;;0.0;0.0
-124;122;Gate of the Orient;Suzhou;China;302.0;990.8016;68;2015;;;0.0;;0.0;0.0
-125;122;Moscow Tower;Moscow;Russia;302.0;990.8016;76;2010;;;0.0;;0.0;0.0
-126;122;We've the Zenith Tower A;Busan;South Korea;301.0;987.5208;80;2011;;;0.0;;0.0;0.0
-127;122;Huachuang International Plaza;Changsha;China;301.0;987.5208;66;2017;;;0.0;;0.0;0.0
-128;126;Shenzhen Zhongzhou Holdings Financial Center Tower A;Shenzhen;China;300.8;986.8646;61;2014;;;0.0;;0.0;0.0
-129;127;Gran Torre Santiago;Santiago;Chile;300.0;984.24;62;2012;;;0.0;;0.0;0.0
-130;127;Abeno Harukas;Osaka;Japan;300.0;984.24;60;2014;;;0.0;;0.0;0.0
-131;127;Arraya 2;Kuwait City;Kuwait;300.0;984.24;60;2009;;;0.0;;0.0;0.0
-132;127;Aspire Tower;Doha;Qatar;300.0;984.24;36;2007;;;0.0;;0.0;0.0
-133;128;First Canadian Place;Toronto;Canada;298.0;977.6784;72;1976;;;0.0;;0.0;0.0
-134;128;One Island East;Hong Kong;Hong Kong;298.0;977.6784;68;2008;;;0.0;;0.0;0.0
-135;129;4 World Trade Center;New York City;United States;298.0;977.6784;65;2013;;;0.0;;0.0;0.0
-136;130;Eureka Tower;Melbourne;Australia;297.0;974.3976;91;2006;;;0.0;;0.0;0.0
-137;131;Comcast Center;Philadelphia;United States;297.0;974.3976;57;2008;;;0.0;;0.0;0.0
-137;0;afafawfe;null;null;0.0;0.0;0;0;null;null;0.0;null;0.0;0.0
+1;1;Burj Khalifa;Dubai;UAE;96161.766;315487.53;163;2010;Adrian Smith at SOM;Neo-futurism;1.5;glass, steel, aluminum, reinforced concrete;25.1971;55.2741
+2;2;Shanghai Tower;Shanghai;China;73221.96;240226.61;128;2015;Jun Xia (Gensler);;2.4;;31.2355;121.501
+3;3;Abraj Al-Bait Clock Tower;Mecca;Saudi Arabia;69630.38;228443.36;120;2012;Dar Al-Handasah Architects;;15.0;steel/concrete composite construction;21.4189;39.8264
+4;4;Ping An Finance Centre;Shenzhen;China;69398.664;227683.14;115;2016;;;0.0;;0.0;0.0
+5;5;Lotte World Tower;Seoul;South Korea;64300.938;210958.52;123;2016;;;0.0;;0.0;0.0
+6;6;CN Tower;Toronto;Canada;64107.453;210323.73;0;1973;;;0.0;;0.0;0.0
+7;7;One World Trade Center;New York City;United States;62713.69;205751.08;104;2014;;;0.0;;0.0;0.0
+8;8;CTF Finance Centre;Guangzhou;China;61404.496;201455.88;111;2016;;;0.0;;0.0;0.0
+9;9;Taipei 101;Taipei;Taiwan;58971.49;193473.66;101;2004;;;0.0;;0.0;0.0
+10;10;Shanghai World Financial Center;Shanghai;China;57001.906;187011.86;101;2008;;;0.0;;0.0;0.0
+11;11;International Commerce Centre;Hong Kong;Hong Kong;56075.05;183971.03;118;2010;;;0.0;;0.0;0.0
+12;12;Petronas Tower 1;Kuala Lumpur;Malaysia;52367.61;171807.66;88;1998;;;0.0;;0.0;0.0
+13;13;Petronas Tower 2;Kuala Lumpur;Malaysia;52367.61;171807.66;88;1998;;;0.0;;0.0;0.0
+14;14;Zifeng Tower;Nanjing;China;52135.89;171047.44;89;2010;;;0.0;;0.0;0.0
+15;15;Willis Tower (formerly the Sears Tower);Chicago;United States;51209.03;168006.6;107;1974;;;0.0;;0.0;0.0
+16;15;KK100;Shenzhen;China;51209.03;168006.6;100;2011;;;0.0;;0.0;0.0
+17;17;Guangzhou International Finance Center;Guangzhou;China;50977.316;167246.38;103;2010;;;0.0;;0.0;0.0
+18;18;Wuhan Center;Wuhan;China;50745.605;166486.19;88;2016;;;0.0;;0.0;0.0
+19;19;Marina 101;Dubai;UAE;49413.242;162114.97;101;2015;;;0.0;;0.0;0.0
+20;20;432 Park Avenue;New York City;United States;49355.312;161924.9;88;2015;;;0.0;;0.0;0.0
+21;21;Trump International Hotel and Tower;Chicago;United States;49007.74;160784.6;98;2009;;;0.0;;0.0;0.0
+22;22;Jin Mao Tower;Shanghai;China;48718.094;159834.33;88;1999;;;0.0;;0.0;0.0
+23;23;Princess Tower;Dubai;UAE;47965.02;157363.64;101;2012;;;0.0;;0.0;0.0
+24;24;Al Hamra Tower;Kuwait City;Kuwait;47849.164;156983.53;80;2011;;;0.0;;0.0;0.0
+25;25;Two International Finance Centre;Hong Kong;Hong Kong;47733.31;156603.44;88;2003;;;0.0;;0.0;0.0
+26;26;23 Marina;Dubai;UAE;45763.73;150141.64;89;2012;;;0.0;;0.0;0.0
+27;27;CITIC Plaza;Guangzhou;China;45300.297;148621.22;80;1997;;;0.0;;0.0;0.0
+28;28;Shun Hing Square;Shenzhen;China;44489.297;145960.48;69;1996;;;0.0;;0.0;0.0
+29;29;Eton Place Dalian Tower 1;Dalian;China;44373.434;145580.36;81;2015;;;0.0;;0.0;0.0
+30;30;Burj Mohammed bin Rashid;Abu Dhabi;UAE;44164.895;144896.19;88;2014;;;0.0;;0.0;0.0
+31;31;Empire State Building;New York City;United States;44141.723;144820.16;102;1931;Shreve, Lamb and Harmon;Art Deco;40948.0;;40.7484;-73.9857
+32;32;Elite Residence;Dubai;UAE;44083.797;144630.12;87;2012;;;0.0;;0.0;0.0
+33;33;Central Plaza;Hong Kong;Hong Kong;43330.723;142159.44;78;1992;;;0.0;;0.0;0.0
+34;34;Federation Tower (East Tower);Moscow;Russia;43330.723;142159.44;95;2015;;;0.0;;0.0;0.0
+35;35;Dalian International Trade Center;Dalian;China;42878.88;140677.03;86;2016;;;0.0;;0.0;0.0
+36;36;The Address the BLVD;Dubai;UAE;42635.574;139878.8;72;2016;;;0.0;;0.0;0.0
+37;37;Bank of China Tower;Hong Kong;Hong Kong;42566.062;139650.73;70;1990;;;0.0;;0.0;0.0
+38;38;Bank of America Tower;New York City;United States;42403.86;139118.58;54;2009;;;0.0;;0.0;0.0
+39;39;Almas Tower;Dubai;UAE;42056.29;137978.27;68;2009;;;0.0;;0.0;0.0
+40;40;JW Marriott Marquis Dubai Tower 1;Dubai;UAE;41129.426;134937.42;82;2012;;;0.0;;0.0;0.0
+41;40;JW Marriott Marquis Dubai Tower 2;Dubai;UAE;41129.426;134937.42;82;2012;;;0.0;;0.0;0.0
+42;41;Emirates Office Tower;Dubai;UAE;41083.086;134785.39;54;2000;;;0.0;;0.0;0.0
+43;42;OKO Tower - South Tower;Moscow;Russia;41013.574;134557.33;85;2015;;;0.0;;0.0;0.0
+44;43;The Marina Torch;Dubai;UAE;40781.855;133797.11;86;2011;;;0.0;;0.0;0.0
+45;44;Forum 66 Tower 2;Shenyang;China;40665.996;133417.0;68;2015;;;0.0;;0.0;0.0
+46;45;The Pinnacle;Guangzhou;China;40573.312;133112.92;60;2012;;;0.0;;0.0;0.0
+47;45;Stratosphere Las Vegas;Las Vegas;United States;40573.312;133112.92;0;1996;;;0.0;;0.0;0.0
+48;46;Tuntex Sky Tower;Kaohsiung;Taiwan;40202.566;131896.58;85;1997;;;0.0;;0.0;0.0
+49;47;Aon Center;Chicago;United States;40121.47;131630.52;83;1973;;;0.0;;0.0;0.0
+50;48;The Center;Hong Kong;Hong Kong;40086.71;131516.48;73;1998;;;0.0;;0.0;0.0
+51;49;John Hancock Center;Chicago;United States;39854.992;130756.26;100;1969;;;0.0;;0.0;0.0
+52;50;ADNOC Headquarters;Abu Dhabi;UAE;39623.277;129996.05;76;2015;;;0.0;;0.0;0.0
+53;50;Ahmed Abdul Rahim Al Attar Tower;Dubai;UAE;39623.277;129996.05;76;2015;;;0.0;;0.0;0.0
+54;52;The Wharf Times Square;Wuxi;China;39275.707;128855.74;68;2014;;;0.0;;0.0;0.0
+55;53;Chongqing World Financial Center;Chongqing;China;39264.125;128817.74;78;2014;;;0.0;;0.0;0.0
+56;54;Mercury City Tower;Moscow;Russia;39252.535;128779.72;75;2013;;;0.0;;0.0;0.0
+57;55;Tianjin Modern City Office Tower;Tianjin;China;39159.85;128475.64;65;2015;;;0.0;;0.0;0.0
+58;56;Tianjin World Financial Center;Tianjin;China;39043.992;128095.53;79;2010;;;0.0;;0.0;0.0
+59;57;Twin Towers Guiyang, East Tower;Guiyang;China;38812.277;127335.32;74;2017;;;0.0;;0.0;0.0
+60;57;Twin Towers Guiyang, West Tower;Guiyang;China;38812.277;127335.32;74;2017;;;0.0;;0.0;0.0
+61;59;Shimao International Plaza;Shanghai;China;38580.56;126575.09;61;2005;;;0.0;;0.0;0.0
+62;60;Rose Tower;Dubai;UAE;38580.56;126575.09;72;2007;;;0.0;;0.0;0.0
+63;61;Minsheng Bank Building;Wuhan;China;38348.844;125814.88;68;2008;;;0.0;;0.0;0.0
+64;62;China World Trade Center Tower 3;Beijing;China;38232.99;125434.79;74;2009;;;0.0;;0.0;0.0
+65;62;Ryugyong Hotel;Pyongyang;North Korea;38232.99;125434.79;105;1992;;;0.0;;0.0;0.0
+66;62;Zhuhai St. Regis Hotel & Office Tower;Zhuhai;China;38232.99;125434.79;67;2017;;;0.0;;0.0;0.0
+67;62;Yuexiu Fortune Center Tower 1;Wuhan;China;38232.99;125434.79;66;2017;;;0.0;;0.0;0.0
+68;66;Hon Kwok City Center;Shenzhen;China;38163.473;125206.72;80;2015;;;0.0;;0.0;0.0
+69;67;Keangnam Hanoi Landmark Tower;Hanoi;Vietnam;38070.79;124902.65;72;2012;;;0.0;;0.0;0.0
+70;68;Al Yaqoub Tower;Dubai;UAE;38001.277;124674.59;69;2013;;;0.0;;0.0;0.0
+71;68;Longxi International Hotel;Huaxi Village;China;38001.277;124674.59;72;2011;;;0.0;;0.0;0.0
+72;68;Wuxi Suning Plaza 1;Wuxi;China;38001.277;124674.59;68;2014;;;0.0;;0.0;0.0
+73;71;The Index;Dubai;UAE;37769.56;123914.37;80;2010;;;0.0;;0.0;0.0
+74;72;Guangxi Finance Plaza;Nanning;China;37653.7;123534.26;68;2016;;;0.0;;0.0;0.0
+75;73;The Landmark;Abu Dhabi;UAE;37537.848;123154.17;72;2012;;;0.0;;0.0;0.0
+76;73;Deji Plaza Phase 2;Nanjing;China;37537.848;123154.17;62;2013;;;0.0;;0.0;0.0
+77;75;Yantai Shimao No.1 The Harbour;Yantai;China;37421.99;122774.06;59;2015;;;0.0;;0.0;0.0
+78;76;Q1;Gold Coast;Australia;37364.06;122584.0;80;2005;;;0.0;;0.0;0.0
+79;77;Wenzhou World Trade Center;Wenzhou;China;37306.13;122393.945;68;2010;;;0.0;;0.0;0.0
+80;78;Burj Al Arab;Dubai;UAE;37190.27;122013.836;60;1999;;;0.0;;0.0;0.0
+81;79;Nina Tower;Hong Kong;Hong Kong;37120.758;121785.78;80;2007;;;0.0;;0.0;0.0
+82;80;Sinar Mas Center 1;Shanghai;China;37028.066;121481.68;66;2016;;;0.0;;0.0;0.0
+83;81;Chrysler Building;New York City;United States;36946.97;121215.62;77;1930;;;0.0;;0.0;0.0
+84;81;Global City Square;Guangzhou;China;36946.97;121215.62;67;2015;;;0.0;;0.0;0.0
+85;83;New York Times Building;New York City;United States;36935.383;121177.6;52;2007;;;0.0;;0.0;0.0
+86;84;HHHR Tower;Dubai;UAE;36726.844;120493.43;72;2010;;;0.0;;0.0;0.0
+87;85;Chongqing IFS T1;Chongqing;China;36610.98;120113.305;65;2016;;;0.0;;0.0;0.0
+88;86;Nanjing International Youth Cultural Centre Tower 1;Nanjing;China;36495.125;119733.2;68;2015;;;0.0;;0.0;0.0
+89;86;Changsha IFS Tower T2;Changsha;China;36495.125;119733.2;65;2017;;;0.0;;0.0;0.0
+90;88;MahaNakhon;Bangkok;Thailand;36402.438;119429.12;75;2016;;;0.0;;0.0;0.0
+91;89;Bank of America Plaza;Atlanta;United States;36147.555;118592.9;55;1992;;;0.0;;0.0;0.0
+92;90;Moi Center;Shenyang;China;36031.695;118212.79;75;2012;;;0.0;;0.0;0.0
+93;91;U.S. Bank Tower;Los Angeles;United States;35950.594;117946.71;73;1989;;;0.0;;0.0;0.0
+94;92;Menara Telekom;Kuala Lumpur;Malaysia;35915.836;117832.67;55;2001;;;0.0;;0.0;0.0
+95;92;Ocean Heights;Dubai;UAE;35915.836;117832.67;82;2010;;;0.0;;0.0;0.0
+96;94;Pearl River Tower;Guangzhou;China;35869.496;117680.64;71;2013;;;0.0;;0.0;0.0
+97;95;Fortune Center;Guangzhou;China;35846.324;117604.62;68;2015;;;0.0;;0.0;0.0
+98;96;Jumeirah Emirates Towers Hotel;Dubai;UAE;35799.98;117452.58;56;2000;;;0.0;;0.0;0.0
+99;97;Stalnaya Vershina;Moscow;Russia;35788.395;117414.56;72;2015;;;0.0;;0.0;0.0
+100;98;Burj Rafal;Riyadh;Saudi Arabia;35684.125;117072.48;68;2013;;;0.0;;0.0;0.0
+101;99;Wanda Plaza 1;Kunming;China;35568.266;116692.37;70;2016;;;0.0;;0.0;0.0
+102;99;Wanda Plaza 2;Kunming;China;35568.266;116692.37;70;2016;;;0.0;;0.0;0.0
+103;101;Franklin Center;Chicago;United States;35556.68;116654.35;60;1989;;;0.0;;0.0;0.0
+104;102;Cayan Tower;Dubai;UAE;35498.75;116464.3;76;2013;;;0.0;;0.0;0.0
+105;103;One57;New York City;United States;35463.992;116350.266;75;2013;;;0.0;;0.0;0.0
+106;104;East Pacific Center Tower A;Shenzhen;China;35452.406;116312.26;85;2012;;;0.0;;0.0;0.0
+107;104;The Shard;London;United Kingdom;35452.406;116312.26;73;2012;;;0.0;;0.0;0.0
+108;106;JPMorgan Chase Tower;Houston;United States;35382.895;116084.2;75;1982;;;0.0;;0.0;0.0
+109;107;Etihad Tower 2;Abu Dhabi;UAE;35371.31;116046.19;79;2011;;;0.0;;0.0;0.0
+110;108;Northeast Asia Trade Tower;Incheon;South Korea;35336.55;115932.16;68;2010;;;0.0;;0.0;0.0
+111;109;Baiyoke Tower II;Bangkok;Thailand;35220.695;115552.055;85;1997;;;0.0;;0.0;0.0
+112;110;Wuxi Maoye City - Marriott Hotel;Wuxi;China;35197.52;115476.02;68;2014;;;0.0;;0.0;0.0
+113;110;Shenzhen CFC Changfu Centre;Shenzhen;China;35197.52;115476.02;68;2016;;;0.0;;0.0;0.0
+114;112;Two Prudential Plaza;Chicago;United States;35139.59;115285.97;64;1990;;;0.0;;0.0;0.0
+115;113;Diwang International Fortune Center;Liuzhou;China;35104.836;115171.945;75;2015;;;0.0;;0.0;0.0
+116;113;KAFD World Trade Center;Riyadh;Saudi Arabia;35104.836;115171.945;67;2015;;;0.0;;0.0;0.0
+117;113;Jiangxi Nanchang Greenland Central Plaza 1;Nanchang;China;35104.836;115171.945;59;2015;;;0.0;;0.0;0.0
+118;113;Jiangxi Nanchang Greenland Central Plaza 2;Nanchang;China;35104.836;115171.945;59;2015;;;0.0;;0.0;0.0
+119;113;Greenland Puli Center;Jinan;China;35104.836;115171.945;60;2015;;;0.0;;0.0;0.0
+120;118;Leatop Plaza;Guangzhou;China;35104.836;115171.945;65;2011;;;0.0;;0.0;0.0
+121;119;Wells Fargo Plaza;Houston;United States;35035.32;114943.875;71;1983;;;0.0;;0.0;0.0
+122;120;Kingdom Centre;Riyadh;Saudi Arabia;35023.734;114905.87;41;2002;;;0.0;;0.0;0.0
+123;121;The Address Downtown Burj Khalifa;Dubai;UAE;35012.15;114867.86;63;2008;;;0.0;;0.0;0.0
+124;122;Gate of the Orient;Suzhou;China;34988.977;114791.836;68;2015;;;0.0;;0.0;0.0
+125;122;Moscow Tower;Moscow;Russia;34988.977;114791.836;76;2010;;;0.0;;0.0;0.0
+126;122;We've the Zenith Tower A;Busan;South Korea;34873.12;114411.734;80;2011;;;0.0;;0.0;0.0
+127;122;Huachuang International Plaza;Changsha;China;34873.12;114411.734;66;2017;;;0.0;;0.0;0.0
+128;126;Shenzhen Zhongzhou Holdings Financial Center Tower A;Shenzhen;China;34849.95;114335.71;61;2014;;;0.0;;0.0;0.0
+129;127;Gran Torre Santiago;Santiago;Chile;34757.26;114031.625;62;2012;;;0.0;;0.0;0.0
+130;127;Abeno Harukas;Osaka;Japan;34757.26;114031.625;60;2014;;;0.0;;0.0;0.0
+131;127;Arraya 2;Kuwait City;Kuwait;34757.26;114031.625;60;2009;;;0.0;;0.0;0.0
+132;127;Aspire Tower;Doha;Qatar;34757.26;114031.625;36;2007;;;0.0;;0.0;0.0
+133;128;First Canadian Place;Toronto;Canada;34525.55;113271.43;72;1976;;;0.0;;0.0;0.0
+134;128;One Island East;Hong Kong;Hong Kong;34525.55;113271.43;68;2008;;;0.0;;0.0;0.0
+135;129;4 World Trade Center;New York City;United States;34525.55;113271.43;65;2013;;;0.0;;0.0;0.0
+136;130;Eureka Tower;Melbourne;Australia;34409.69;112891.31;91;2006;;;0.0;;0.0;0.0
+137;131;Comcast Center;Philadelphia;United States;34409.69;112891.31;57;2008;;;0.0;;0.0;0.0

@@ -2,12 +2,10 @@ package view;
 
 import java.io.File;
 
-import javafx.beans.property.ObjectProperty;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import model.Building;
@@ -20,7 +18,6 @@ public class NavigationView extends HBox{
   private Button save;
   private Button delete;
   private Button add;
-  private TextField search;
   private ObservableList<Building> buildings;
   private MainView mainView;
   
@@ -45,10 +42,10 @@ private void addEventHandlers() {
 			e1.printStackTrace();
 		}
 		
+		mainView.updateList();
 	});
 	
 	delete.setOnAction(e -> {
-		ObjectProperty<Building> selectedBuilding = mainView.getSelectedBuilding();
 		buildings.remove(mainView.getSelectedBuilding().get());
 		
 	});

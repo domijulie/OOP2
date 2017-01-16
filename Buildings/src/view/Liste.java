@@ -2,8 +2,7 @@ package view;
 
 import java.io.File;
 
-import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleObjectProperty;
+import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -28,31 +27,61 @@ public class Liste extends VBox {
 	 */
 
 	private ObservableList<Building> buildings;
-	private ObjectProperty<Building> selectedBuilding = new SimpleObjectProperty<Building>();
-	FilteredList<Building> filteredData;
-	SortedList<Building> sortedData;
+	private TextField searchField;
+	private FilteredList<Building> filteredData;
+	private SortedList<Building> sortedData;
 
-	// public Liste(ObservableList<Building> buildings){
 
-	public Liste(ObservableList buildings) {
+	public Liste(ObservableList<Building> buildings) {
 		this.buildings = buildings;
 		initializeControls();
-		layoutControls();
-		addEventHandlers();
-		addValueChangedListeners();
 		addBindings();
-
+	}
+	
+	public void update(){
+		//ugly workaround
+		tabelle.getColumns().get(0).setVisible(false);
+		tabelle.getColumns().get(0).setVisible(true);
 	}
 
-	public void initializeControls() {
+	private void addBindings() {
+		buildings.addListener(new ListChangeListener<Building>(){
+
+            @Override
+            public void onChanged(javafx.collections.ListChangeListener.Change<? extends Building> pChange) {
+                while(pChange.next()) {
+                	filteredData = new FilteredList<Building>(buildings, s -> true);
+            		sortedData = new SortedList<Building>(filteredData, (s1, s2) -> Integer.compare(s1.getRank(), s2.getRank()));
+            		
+            		searchField.textProperty().addListener(e -> {
+            			String filter = searchField.getText();
+            			if (filter == null || filter.length() == 0) {
+            				filteredData.setPredicate(s -> true);
+            				sortedData.setComparator((s1, s2) -> Integer.compare(s1.getRank(), s2.getRank()));
+            			} else {
+            				filteredData.setPredicate(
+            						s -> s.levenshteinDistance(filter, s.getName()) <= s.getName().length() - filter.length());
+            				sortedData.setComparator((s1, s2) -> (s1.levenshteinDistance(filter, s1.getName()))
+            						- (s2.levenshteinDistance(filter, s2.getName())));
+            			}
+            		});
+            		
+            		tabelle.setItems(sortedData);
+                }
+            }
+        });
+		
+	}
+
+	private void initializeControls() {
 		// Initialize Tableview
 		tabelle = new TableView<Building>();
 		filteredData = new FilteredList<Building>(buildings, s -> true);
 		sortedData = new SortedList<Building>(filteredData, (s1, s2) -> Integer.compare(s1.getRank(), s2.getRank()));
 
-		tabelle.setItems(filteredData);
+		tabelle.setItems(sortedData);
 
-		TextField searchField = new TextField();
+		searchField = new TextField();
 		searchField.textProperty().addListener(e -> {
 			String filter = searchField.getText();
 			if (filter == null || filter.length() == 0) {
@@ -67,11 +96,11 @@ public class Liste extends VBox {
 		});
 
 		TableColumn<Building, Integer> rankCol = new TableColumn<Building, Integer>("Rank");
-		rankCol.setCellValueFactory(new PropertyValueFactory("rank"));
+		rankCol.setCellValueFactory(new PropertyValueFactory<Building, Integer>("rank"));
 		TableColumn<Building, String> nameCol = new TableColumn<Building, String>("Name");
-		nameCol.setCellValueFactory(new PropertyValueFactory("name"));
+		nameCol.setCellValueFactory(new PropertyValueFactory<Building, String>("name"));
 		TableColumn<Building, String> cityCol = new TableColumn<Building, String>("City");
-		cityCol.setCellValueFactory(new PropertyValueFactory("city"));
+		cityCol.setCellValueFactory(new PropertyValueFactory<Building, String>("city"));
 
 		tabelle.getColumns().addAll(rankCol, nameCol, cityCol);
 
@@ -84,32 +113,9 @@ public class Liste extends VBox {
 		tabelle.getSelectionModel().selectFirst();
 		this.getChildren().addAll(searchBox, tabelle);
 
-		// bind tablecolumns to presentationmodel with lambda expression
-
 	}
 
 	public TableView<Building> getTable() {
 		return tabelle;
-	}
-
-	private void layoutControls() {
-		// setVgrow(tabelle, Priority.ALWAYS);
-
-		// getChildren().addAll(tabelle);
-
-	}
-
-	private void addBindings() {
-		// TODO Auto-generated method stub
-
-	}
-
-	private void addValueChangedListeners() {
-		// TODO Auto-generated method stub
-
-	}
-
-	private void addEventHandlers() {
-
 	}
 }
